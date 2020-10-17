@@ -20,27 +20,27 @@
     = Course.count
     online courses
     .row
-    Explore a variety of fresh topics
+      Explore a variety of fresh topics
   .card.card-body
     %h1
       .fa.fa-chalkboard-teacher
     = Course.distinct.count(:user_id)
     expert instructors
     .row
-    Find the right instructor for you
+      Find the right instructor for you
   .card.card-body
     %h1
       .fa.fa-user-graduate
     = User.count
     active learners
     .row
-    Join the knowledge sharing community
+      Join the knowledge sharing community
   .card.card-body
     %h1
       .fa.fa-infinity
     Lifetime access
     .row
-    Learn on your own schedule
+      Learn on your own schedule
 
 %hr
 %h2
